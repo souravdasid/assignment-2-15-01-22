@@ -72,7 +72,128 @@ button:hover i {
     width: 98%;
 }
 /* artical part csss hear */
+main {
+    position: relative;
+}
 .popular{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+    }
+
+    section.popular {
+        background-color: #dbdbdb8c;
+    }
+
+    article.popular-article {
+        background: #fff;
+        padding: 15px;
+        border-radius: 5px;
+        margin: 10px;
+    }
+
+
+    .article-mid h3 {
+        font-size: 28px;
+        color: #18191F;
+        margin: 20px 0 15px 0;
+    }
+
+    .article-mid h4 {
+        font-size: 24px;
+        font-weight: 400;
+    }
+
+    .article-star.flex {
+        color: #f78b2c;
+        font-size: 13px;
+        margin: 10px 0;
+    }
+
+    .article-end h3 {
+        font-size: 14px;
+        font-weight: 700;
+        color: #787885;
+        margin: 5px 0;
+    }
+
+    .article-end {
+        margin: 10px 0;
+    }
+
+    .popular-h3 {
+        color: #3A3A3A;
+        text-align: center;
+        margin: 45px 0;
+        font-size: 28px;
+    }
+
+    .reating {
+        color: #5E6366;
+        font-size: 14px;
+        font-weight: 900px;
+        margin-left: 5px;
+    }
+
+    .article-top img {
+        width: 100%;
+    }
+
+    .see-more {
+        position: absolute;
+        bottom: -90px;
+        right: 37px;
+    }
+
+    .see-more button {
+        color: #E02C6DDE;
+        border: none;
+        font-size: 16px;
+        font-weight: 700;
+        padding: 10px 20px;
+        background-color: #fff;
+
+    }
+
+    .see-more i {
+        margin-left: 10px;
+    }
+
+    /* featured-leftfeatured-leftfeatured-leftfeatured-left */
+    .featured-ariea {
+        margin-top: 130px;
+    }
+
+    .featured-left {
+        width: 40%;
+    }
+
+    .featured-right {
+        width: 60%;
+        margin-top: 20px;
+    }
+
+    .featured-right h1 {
+        font-size: 38px;
+        font-weight: 700;
+        color: #0A0826;
+        margin: 20px 0;
+
+    }
+    .feature-p {
+        width: 69%;
+    }
+    .feature-p p {
+        font-size: 16px;
+        font-weight: 700;
+        color: #6C6C6C;
+        margin: 20px 0;
+        line-height: 28px;
+    }
+
+    .featured-left img {
+        width: 80%;
+       
 }
+/* foooter part start hear  */
