@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+/* font link hear  */
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Moon+Dance&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif
+}
+
+.flex {
+    display: flex;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/* design part .......top header  */
+.top-header {
+    margin: 87px 0;
+    font-size: 24px;
+    font-weight: 700;
+    color: #3A3A3A;
+}
+
+.header-left h1 {
+    font-size: 52px;
+    font-weight: 700;
+    color: #3A3A3A;
+}
+
+.header-left p {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 25px 25px 25px 0;
+    color: #3A3A3A;
+}
+
+.header-button button {
+    font-weight: 600;
+    font-size: 16px;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    border: none;
+    color: white;
+    border-radius: 21px;
+
+}
+
+.header-button i {
+
+    margin-left: 10px;
+    transition: 0.2s ease-in-out;
+}
+
+button:hover i {
+    margin-left: 15px;
+    margin-right: -5px;
+}
+
+.header-left {
+    margin-top: 60px;
+}
+
+/* img cssss */
+.header-right img {
+    width: 98%;
+}
+/* artical part csss hear */
+.popular{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
